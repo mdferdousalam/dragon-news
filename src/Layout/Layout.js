@@ -11,7 +11,7 @@ const Layout = () => {
             <Header></Header>
             <Container>
                 <Row>
-                    <Col lg="2">
+                    <Col lg="2" className='d-none d-lg-block' >
                         <LeftSideNave></LeftSideNave>
                     </Col>
 
